@@ -1,6 +1,7 @@
-  Feature: Table Light
+Feature: Table Light
 
-  The table light is interacted through a switch that controls
+  The table light is interacted through a switch that turns the table light on when the table light is plugged in.
+  The table light will turn off after 30 seconds have passed.
 
   Background:
     Given the table light is plugged in

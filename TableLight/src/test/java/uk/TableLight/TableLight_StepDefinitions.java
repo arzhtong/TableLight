@@ -32,7 +32,7 @@ public class TableLight_StepDefinitions {
 
     @When("the user flicks the switch to the on position")
     public void the_user_flicks_the_switch_to_the_on_position() throws InterruptedException {
-        light.setSwitchPosition(SwitchPosition.ON);
+        light.flickSwitchPosition(SwitchPosition.ON);
     }
 
     @Then("the light will be on")
